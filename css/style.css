@@ -4,6 +4,12 @@ header .navbar {
   margin-bottom: 0;
 }
 
+.h-blu {
+  color: #031b4e;
+  font-size: 35px;
+  font-weight: 700;
+}
+
 /* REGOLE SPECIFICHE -------------------------------------------------------- */
 
 /* Regole dell'Header ------------------------------------------------------- */
@@ -68,7 +74,85 @@ header .navbar {
   color: #fff;
 }
 
-/* Regole della Call to action ---------------------------------------------- */
+/* Regole del Main ---------------------------------------------------------- */
+
+/* Regole della Cover image */
+.bg-cover {
+  background-color: #0248ff;;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-repeat: repeat;
+  width: 100%;
+  min-height: 800px;
+  padding-top: 190px;
+}
+.title-cover {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 700;
+}
+.text-cover {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.bg-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 25px 25px;
+}
+.bg-form .form-group {
+  margin-bottom: 0;
+}
+.bg-form .margin-form {
+  margin-bottom: 20px;
+}
+.bg-form .form-group .form-control {
+  padding: 25px 12px;
+  font-size: 18px;
+}
+.form-control::placeholder {
+  color: #031b4e;
+  opacity: 1;
+}
+.bg-form .form-group a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 0;
+  background-color: #15cd72;
+  border-radius: 3px;
+  border: none;
+  width: 100%;
+}
+.bg-form .form-group a:hover {
+  background-color: #0cb863;
+}
+.bg-form .form-group a[href^="https"] {
+  color: #757575;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 3px;
+  box-shadow: 1px 1px;
+  width: 100%;
+  position: relative;
+}
+.bg-form .form-group a[href^="https"]:hover {
+  background-color: #eee;
+}
+.icon-google {
+  left: 10px;
+  bottom: 15px;
+  position: absolute;
+}
+.text-form {
+  font-size: 13px;
+  color: #757575;
+}
+
+/* Regole della Call to action */
 .bg-call {
   background-image: url("../media/bg-home.jpg");
   background-position: -150px bottom;
@@ -134,6 +218,27 @@ footer .fa {
 
 /* REGOLE RESPONSIVE -------------------------------------------------------- */
 
+/* Visualizzazione da 992px in su) */
+@media (min-width: 992px) {
+  /* Cover image */
+  .title-cover {
+    font-size: 65px;
+  }
+  .text-cover {
+    font-size: 26px;
+    padding-right: 180px;
+  }
+  .bg-cover {
+    background-image: url("../media/bg-home.jpg");
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 800px;
+    padding-top: 190px;
+  }
+}
+
 /* Visualizzazione da 992px in giù) */
 @media (max-width: 992px) {
   /* Top-Bar */
@@ -150,4 +255,9 @@ footer .fa {
   .logo {
     margin-right: 20px;
   }
+}
+
+/* Visualizzazione da 768px in su) */
+@media (min-width: 768px) {
+
 }
