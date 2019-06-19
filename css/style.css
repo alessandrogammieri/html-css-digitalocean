@@ -219,13 +219,9 @@ header {
   padding: 90px 0;
 }
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-  /* right: -15%;
-  color: #031b4e; */
   display: none;
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
-  /* left: -15%;
-  color: #031b4e; */
   display: none;
 }
 .carousel-indicators .active {
@@ -236,6 +232,17 @@ header {
 }
 .carousel-indicators {
   bottom: -20%;
+}
+.carousel-control.left {
+  display: none;
+}
+.carousel-control.right {
+  display: none;
+}
+.carousel-inner {
+  border: solid 1px lightgray;
+  background-color: #fff;
+  border-radius: 2px;
 }
 
 /* Regole della Sezione consulenza */
@@ -300,8 +307,29 @@ table tr td a:hover {
   text-decoration: none;
 }
 
-
 /* Regole dello Slider Team */
+.bg-slid {
+  background-color: #f3f5f9;
+  padding: 90px 0;
+}
+.brand {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.bg-slid .item {
+  padding: 50px 40px;
+}
+.read {
+  color: #0069ff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.cit {
+  color: rgba(3,27,78,.5);
+  font-size: 16px;
+  font-weight: 600;
+}
 
 /* Regole della Call to action */
 .bg-call {
