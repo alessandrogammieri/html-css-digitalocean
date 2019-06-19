@@ -243,7 +243,7 @@ header {
   padding: 90px 0;
 }
 .pad-con {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .bg-con a {
   color: #0069ff;
@@ -263,6 +263,43 @@ header {
   width: 100%;
   padding: 120px 0;
 }
+.title-con {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+table {
+  width: 100%;
+}
+tr {
+  border-bottom: solid 1px #fff;
+}
+table tr:last-child {
+  border-bottom: 0px;
+}
+td {
+  padding: 15px 0;
+}
+table tr td:first-child {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+table tr td:nth-child(2){
+  color: #757575;
+}
+table tr td a {
+  color: #00d7d2;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+table tr td a:hover {
+  color: #0069ff;
+  text-decoration: none;
+}
+
 
 /* Regole dello Slider Team */
 
@@ -345,6 +382,18 @@ footer .fa {
   /* Carousel control */
   .carousel-indicators {
     bottom: -10%;
+  }
+  /* Counter */
+  table tr td:first-child {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  table tr td a {
+    color: #00d7d2;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
   }
 }
 
