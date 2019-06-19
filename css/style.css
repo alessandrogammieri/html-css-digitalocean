@@ -3,7 +3,6 @@ header .navbar {
   border-radius: 0;
   margin-bottom: 0;
 }
-
 .h-blu {
   color: #031b4e;
   font-size: 35px;
@@ -13,6 +12,17 @@ header .navbar {
 .text-blu {
   color: rgba(3,27,78,.7);
   font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.title-pro {
+  color: #031b4e;
+  font-size: 18px;
+  font-weight: 600
+}
+.text-pro {
+  color: rgba(3,27,78,.7);
+  font-size: 17px;
   font-weight: 400;
   padding-bottom: 20px;
 }
@@ -202,17 +212,6 @@ header {
   background-color: #fff;
   color: #031b4e;
 }
-.title-pro {
-  color: #031b4e;
-  font-size: 18px;
-  font-weight: 600
-}
-.text-pro {
-  color: rgba(3,27,78,.7);
-  font-size: 16px;
-  font-weight: 400;
-  padding-bottom: 20px;
-}
 
 /* Regole dello Slider Layout */
 .bg-slider {
@@ -237,6 +236,20 @@ header {
 }
 .carousel-indicators {
   bottom: -20%;
+}
+
+/* Regole della Sezione consulenza */
+.bg-con {
+  padding: 90px 0;
+}
+.pad-con {
+  padding-top: 20px;
+}
+.bg-con a {
+  color: #0069ff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 /* Regole del Counter */
