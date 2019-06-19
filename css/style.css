@@ -8,12 +8,13 @@ header .navbar {
   color: #031b4e;
   font-size: 35px;
   font-weight: 700;
+  padding-bottom: 20px;
 }
 .text-blu {
   color: rgba(3,27,78,.7);
   font-size: 20px;
   font-weight: 400;
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
 /* REGOLE SPECIFICHE -------------------------------------------------------- */
@@ -184,23 +185,49 @@ header {
   font-weight: 600;
 }
 
+/* Regole della Sezione prodotti */
+.bg-pro {
+  padding: 90px 0;
+}
+.bg-pro ul {
+  padding: 15px 0 30px 0;
+}
+.nav > li > a {
+  color: rgba(3,27,78,.5);
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #031b4e;
+}
+.title-pro {
+  color: #031b4e;
+  font-size: 18px;
+  font-weight: 600
+}
+.text-pro {
+  color: rgba(3,27,78,.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
 /* Regole dello Slider Layout */
 .bg-slider {
   background-color: #f3f5f9;
   padding: 90px 0;
 }
-.text-slider {
-  color: rgba(3,27,78,.7);
-  font-size: 18px;
-  font-weight: 400;
-}
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-  right: -30%;
-  color: #031b4e;
+  /* right: -15%;
+  color: #031b4e; */
+  display: none;
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
-  left: -30%;
-  color: #031b4e;
+  /* left: -15%;
+  color: #031b4e; */
+  display: none;
 }
 .carousel-indicators .active {
   background-color: #0069ff;
@@ -209,9 +236,22 @@ header {
   border-color: #0069ff;
 }
 .carousel-indicators {
-  bottom: -10%;
+  bottom: -20%;
 }
 
+/* Regole del Counter */
+.bg-counter {
+  background-color: #031b4e;
+  background-image: url("../media/map.png");
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 120px 0;
+}
+
+/* Regole dello Slider Team */
 
 /* Regole della Call to action */
 .bg-call {
@@ -288,6 +328,10 @@ footer .fa {
   .text-cover {
     font-size: 26px;
     padding-right: 180px;
+  }
+  /* Carousel control */
+  .carousel-indicators {
+    bottom: -10%;
   }
 }
 
